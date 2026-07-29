@@ -331,8 +331,6 @@ For attackers on engagement: these notes explore a specific post-exploitation.
 
 For defenders: they highlight why securing the network in general, isolating memory access vectors, and monitoring unusual processes (ProcDump, remote debugging) remains essential.
 
-For tools described in this blogpost : https://github.com/scamrepo/bitwarden-extractor
-
 Thank you Julien BEDEL for [his presentation](https://www.youtube.com/watch?v=aAdD2z6uA7w).
 
 ---
