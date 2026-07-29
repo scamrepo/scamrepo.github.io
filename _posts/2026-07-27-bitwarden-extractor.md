@@ -343,5 +343,4 @@ Thank you Julien BEDEL for [his presentation](https://www.youtube.com/watch?v=aA
 - [Synacktiv - The Phantom Extension: infiltrating Chrome through unexplored paths](https://www.synacktiv.com/publications/lextension-fantome-infiltrer-chrome-par-des-voies-inexplorees)
 - [synacktiv/extloader](https://github.com/synacktiv/extloader) — Extension loader
 - [moz-idb-edit](https://gitlab.com/ntninja/moz-idb-edit) — Firefox IndexedDB Extraction
-- [Bitwarden Security Architecture](https://bitwarden.com/security/)
 - [bitwarden-extractor](https://github.com/scamrepo/bitwarden-extractor)
