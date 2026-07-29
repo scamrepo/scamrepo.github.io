@@ -89,7 +89,7 @@ $ dfleveldb log -s 00003.log | jq 'select(.key | test("_ciphers_ciphers")).value
 
 > The `userKey` (`user_[id]_crypto_userKey`) is stored in the **session** storage of the extension. It decrypts the master key, which itself encrypts the credentials and passwords in the database. 
 >
-> During the POC, the pattern before this key was: `4000000001CE8CC8` as an example. One solution could be to retrieve the exact version of Chrome and search for patterns before the key.
+> During the POC, the pattern before this key was: `4000000001CE8CC8` as an example. With hexedit tool, you can search for the key in hex format without spaces using CTRL+S, and look at the patterns before and after it. By repeating this over a large number of dumps, you can identify patterns. One solution could be to retrieve the exact version of Chrome and search for patterns before the key.
 
 Tools available at: [bitwarden-extractor](https://github.com/scamrepo/bitwarden-extractor)
 
