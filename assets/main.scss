@@ -1,0 +1,24 @@
+---
+---
+@import "minima";
+
+$accent: #4ade80;
+
+.site-title, .site-title:visited {
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+a { color: $accent; }
+a:hover { color: #86efac; }
+
+h1, h2, h3 { letter-spacing: -0.3px; }
+
+blockquote {
+  border-left: 3px solid $accent;
+  color: #9ca3af;
+  font-style: normal;
+}
+
+code, pre { font-family: "SFMono-Regular", Menlo, Consolas, monospace; }

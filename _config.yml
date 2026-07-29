@@ -1,0 +1,20 @@
+title: SCAM
+description: Sécurité, curiosité technique et notes d'apprentissage
+author: SCAM Research
+url: https://scamrepo.github.io
+theme: minima
+minima:
+  skin: dark
+show_excerpts: true
+permalink: /:year/:month/:day/:title/
+paginate: 10
+paginate_path: /page/:num/
+markdown: kramdown
+highlighter: rouge
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
