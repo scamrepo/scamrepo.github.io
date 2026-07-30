@@ -124,26 +124,22 @@ title: SCAM
             align-items: center;
             gap: 12px;
         }
-        
-      .footer-sig {
-    color: var(--muted);      /* gris discret au lieu du bleu */
-    font-weight: 400;          /* moins gras */
-    font-size: 0.82rem;        /* même taille que le reste du footer */
-    letter-spacing: 1px;       /* moins espacé */
-    /* text-transform: uppercase; ← supprimé */
-}
-
+            
+          .footer-sig {
+                color: var(--muted);      /* gris discret au lieu du bleu */
+                font-weight: 400;          /* moins gras */
+                font-size: 0.82rem;        /* même taille que le reste du footer */
+                letter-spacing: 1px;       /* moins espacé */
+        }
         
         .footer-sep {
             color: var(--line);
             user-select: none;
         }
-        
         .footer-year {
             color: var(--muted);
             font-size: 0.78rem;
         }
-
 
         .egg {
             font-size: 0.78rem;
