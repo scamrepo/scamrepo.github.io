@@ -147,7 +147,13 @@ title: SCAM
         </section>
 
         <footer>
+         <div class="footer-inner">
+            <span class="footer-sig">- scam</span>
+            <span class="footer-sep">/</span>
             <a href="https://github.com/scamrepo">github</a>
+            <span class="footer-sep">/</span>
+            <span class="footer-year">{{ site.time | date: "%Y" }}</span>
+          </div>
         </footer>
     </div>
 </body>
