@@ -253,17 +253,43 @@
             color: var(--accent);
         }
 
-        footer {
-            color: var(--muted);
-            font-size: 0.82rem;
-            font-family: "SFMono-Regular", Menlo, Consolas, monospace;
-        }
+  
 
         @media (max-width: 768px) {
             .wrap { padding: 40px 18px 60px; }
             .post-title { font-size: 1.5rem; }
             .post-nav { flex-direction: column; }
         }
+        
+                footer {
+            color: var(--muted);
+            font-size: 0.82rem;
+            font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+        }
+        
+        .footer-inner {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .footer-sig {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 1rem;
+            letter-spacing: 2px;
+        }
+        
+        .footer-sep {
+            color: var(--line);
+            user-select: none;
+        }
+        
+        .footer-year {
+            color: var(--muted);
+            font-size: 0.78rem;
+        }
+
     </style>
 </head>
 <body>
@@ -310,9 +336,17 @@
                 {% endif %}
             </div>
             {% endif %}
+            
 
             <footer>
-                <p>// hello, friend. thanks for reading.</p>
+           <p style="margin-bottom: 12px;">// hello, friend. thanks for reading.</p>
+                <div class="footer-inner">
+                    <span class="footer-sig">— scam</span>
+                    <span class="footer-sep">/</span>
+                    <a href="https://github.com/scamrepo">github</a>
+                    <span class="footer-sep">/</span>
+                    <span class="footer-year">{{ site.time | date: "%Y" }}</span>
+                </div>
             </footer>
         </div>
     </div>
