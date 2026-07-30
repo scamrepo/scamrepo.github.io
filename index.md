@@ -125,13 +125,14 @@ title: SCAM
             gap: 12px;
         }
         
-        .footer-sig {
-            color: var(--accent);
-            font-weight: 700;
-            font-size: 1rem;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-        }
+      .footer-sig {
+    color: var(--muted);      /* gris discret au lieu du bleu */
+    font-weight: 400;          /* moins gras */
+    font-size: 0.82rem;        /* même taille que le reste du footer */
+    letter-spacing: 1px;       /* moins espacé */
+    /* text-transform: uppercase; ← supprimé */
+}
+
         
         .footer-sep {
             color: var(--line);
