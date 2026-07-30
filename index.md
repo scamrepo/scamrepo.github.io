@@ -110,11 +110,39 @@ title: SCAM
             text-decoration: underline;
         }
 
+   
         footer {
-            margin-top: 64px;
+            margin-top: 80px;
+            padding-top: 24px;
+            border-top: 1px solid var(--line);
             color: var(--muted);
             font-size: 0.82rem;
         }
+        
+        .footer-inner {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .footer-sig {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 1rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        
+        .footer-sep {
+            color: var(--line);
+            user-select: none;
+        }
+        
+        .footer-year {
+            color: var(--muted);
+            font-size: 0.78rem;
+        }
+
 
         .egg {
             font-size: 0.78rem;
